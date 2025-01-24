@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -14,7 +15,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to Genevieve's Bookstore!" />
         <Link href="/main">
-          <button style = {{marginTop: '20px', padding: '10px 20px', fontSize: '16px'}}>
+          <button>
             Explore my bookstore!
           </button>
         </Link>
